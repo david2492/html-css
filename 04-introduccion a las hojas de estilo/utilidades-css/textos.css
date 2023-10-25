@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Comic+Neue:wght@700&display=swap');
+
+html {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Climate Crisis', cursive;
+    font-size: large;
+    font-weight: 300;
+    font-style: italic;
+}
+

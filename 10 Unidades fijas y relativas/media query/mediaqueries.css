@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p{
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media print => sirve cuando se imprime cambia de color */
+/* @media (max-width: 576px) {
+    h1{
+        color: blue;
+    }
+} */
+@media (min-width: 576px) {
+    h1{
+        color: blue;
+    }
+}
+
+@media (min-width: 995px){
+    h1{
+        color: green;
+    }
+}
+
+@media (min-height: 300px) {
+    p{
+        color: cyan;
+    }
+}
+
+@media(orientation: landscape) and (min-heigth: 400px) {
+    p {
+        color: tomato;
+        background-color: yellow;
+    }
+}
+
+

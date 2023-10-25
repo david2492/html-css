@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+    flex-direction: column; /*poir defecto el row*/
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;
+    /* flex-wrap: wrap; sirve para que se ajuste tipo justificado */ 
+    align-items: center; /*stretch es por defecto*/
+}
+.contenido-1 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-2 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-3 {
+    background-color: pink;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}

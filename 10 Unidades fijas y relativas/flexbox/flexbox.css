@@ -1,0 +1,22 @@
+.contenedor {
+    background-color: aquamarine;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2 {
+    /* justify-self: center; */
+    /* sirve para que se se comporte diferente a los demas cuadros */
+    align-self: stretch;
+}

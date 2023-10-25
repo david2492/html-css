@@ -1,0 +1,47 @@
+.contenedor {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+
+
+span.frase {
+    font-style:  italic;
+
+}
+
+span.frase::before {
+    content: '<<';
+    font-size: xx-small;
+}
+
+span.frase::after {
+    content: '>>';
+    font-size: xx-small;
+}
+
+/*con after y before hace que el texto ponga << al inicio  >> al final*/
+
+.libro {
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.libro p::first-letter { /*la primera letra la pone mas grande*/
+    font-size: xx-large;
+}
+
+.libro p::first-line { /*la primera line adel texto cambia de color*/
+    color: red;
+}
+
+.libro p::selection { /*sirve para cambiar el color de la seleccion al momento de copiar*/
+    background-color: chocolate;
+    color: lime;
+}
+
+.listado li::marker{
+    color: red;
+}

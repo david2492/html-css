@@ -1,0 +1,50 @@
+/* estilos para colores */
+.colores {
+    color: red;
+}
+
+.color-hexadecimal {
+    color: #BCE784
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200);
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 0.85);
+}
+
+/*fondos*/
+.fondo {
+    /* background-color: cornflowerblue; */
+    background-image: url("https://p0.pikist.com/photos/738/2/landscape-beautiful-nature-forest-sky-sunset-sunrise-winter-beach.jpg");
+    background-position: center center;
+}
+
+.fondo-interno {
+    background-image: url("./imagenes/HD-wallpaper-beautiful-scenery-nature-river-trees-green.jpg");
+    background-position: center center;
+}
+
+/*tmaños*/
+
+.ancho {
+    background-color:cadetblue ;
+    width: 100px;
+}
+
+.alto {
+    background-color: yellowgreen;
+    height: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    padding: 10px 20px; /*arriba y abajo, derecha e izquierda
+    /* padding: 10px 20px 30px 40px; */
+    margin: 10px 20px;
+    /* margin: 10px 20px 30px 40px; */
+}

@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+
+}
+
+p {
+    color: blue;
+    font-size: 16pt;
+
+}
+
+/* selectores de id*/
+p#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    color: darkmagenta;
+}
+
+/*selectores de class */
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/*selector universal */
+* {
+    color: yellow;
+}
+
+/* universal con class*/
+*.warning {
+    color: yellow;
+}
+
+/* afectar varias cosas similares con artas clases*/
+.autor , .fecha , .ubicacion {
+    text-decoration: underline;
+}
+

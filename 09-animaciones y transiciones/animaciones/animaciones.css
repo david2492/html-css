@@ -1,0 +1,65 @@
+div {
+    margin-bottom: 10px ;
+}
+/* tranciones */
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    transition: transform 1s ease-in; /*primero cambia de color y luego la transicion*/
+}
+
+
+.padre:hover .hijo {
+    transform: translateX(100%);
+    background-color: blueviolet;
+}
+
+/* animaciones */
+.padre-1 {
+    width: 400px;
+    height: 400px;
+    background-color: royalblue;
+}
+
+.hijo-1 {
+    width: 50%;
+    height: 50%;
+    background-color: yellowgreen;
+    
+}
+
+.padre-1:hover .hijo-1 {
+    animation: traslacion 4s ease-in-out infinite forwards alternate; 
+}
+
+/*en la parte de animacion hay q crear ese movimiento con keyframes
+escribimos la animacion y un nombre y en la parte de abajo con keyframes
+hacemos los movimietos 
+*/
+
+@keyframes traslacion {
+    0% {
+        background-color: tomato;
+        transform: translateX(0%) translateY(0%);
+    }
+    25%{
+        transform: translateX(100%) translateY(0%);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateX(0%) translateY(100%);
+    }
+    100% {
+        background-color: brown;
+        transform: translateX(0%) translateY(0%);
+    }
+}

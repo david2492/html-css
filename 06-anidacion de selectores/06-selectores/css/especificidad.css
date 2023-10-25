@@ -1,0 +1,26 @@
+#h1-id {
+    color: aqua;
+}
+
+.h1-clase {
+    color: aquamarine;
+}
+
+h1 {
+    color:blue
+}
+/* 
+h1{
+    color: green;
+} */
+
+/*no son buenas practicas colocar un elemntos y luego sobrescribirlos con nuevos elementos
+adicionalmente el toma el ultimo elemento en este caso seria el verde
+*/
+p {
+    color: red;
+}
+
+/* la especificidad primero toma los datos del id# luego el de la clase .clase y por ultimo el de la etiqueta 
+por lo tanto siempre tomara el del id y no influye si tengo el ultimo elemento 
+*/

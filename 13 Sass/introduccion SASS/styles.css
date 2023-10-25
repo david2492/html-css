@@ -1,0 +1,93 @@
+/* @import "sass/componentes"; */
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #2b2b2b;
+}
+.btn:hover, .btn-2:hover {
+  background-color: cyan;
+  color: red;
+  cursor: pointer;
+}
+
+.btn-2 {
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* @import"sass/mixins"; */
+/* @import "sass/estilos"; */
+/* @import"sass/mixins"; */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: azure;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: #f1f1f1;
+}
+
+p {
+  color: #3f3f3f;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: pink;
+}
+
+.listado {
+  width: 10rem;
+  background-color: aqua;
+  padding: 0.5rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul:hover {
+  background-color: blue;
+  color: red;
+  cursor: pointer;
+}
+.listado ul li {
+  list-style: none;
+}
+
+/* otros */
+/*sass --watch styles.scss styles.css  */ /*esto es para siempre abrir para ver los datos*/
+/*acceder a la constante e*/
+/*acceder a la constante Pi*/
+/*sirve para redondear +*/
+/*sirve para redondear -*/
+/*sirve para redondear dependiendo el 5 4.4 rendodea al 4, 4.6 redondea al 5*/
+/*sirve para devolver un minimo o 
+un maximo en un rango en ejemplo con 256.36 que no esta en el rango de 0 a  10 me devuelve el 10 pero si 
+colocamos -6.36 va a devolver 0 pero si le colocamos 6 el resultado va hacer 6*/
+/*Sirve para devolver el numero mayor en una lista*/
+/*Sirve para devolver el numero menor en una lista*/
+/*devuelve el mismo numero pero en positivo*/
+/*devuelve el mismo numero pero en positivo*/
+/*sirve para elevar el 2 el numero que queremos elevar y 4 la elevacion*/
+/*el numero a elevar y la elevacion que lo pone en positivo con la anterior operacion*/
+/*ultilizar funcon de listas @use "sass:list"*/
+/*sirve para agregar un nuevo dato en la lista*/
+/*sirve para agregar un nuevo dato en la lista con separador de espacio*/
+/*sirve para encontrar en que posicion esta un dato en una lista*/
+/*sirve para unir dos listas*/
+/*sirve mirar cuantos datos hay en la lista*/
+/*sirve para mirar con que separador esta*/
+/*sirve para enviar nuevo sparametros listo: $border-custom posicion: 2 poner dos 2px*/
+/*ultilizar funcon de listas @use "sass:selector"*/
+/*sirve para unir dos selectores*/
+/*ultilizar funcon de listas @use "sass:color"*/
+
+/*# sourceMappingURL=styles.css.map */

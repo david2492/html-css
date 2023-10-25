@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Formularios</title>
+        <link rel="stylesheet" type="text/css" href="./formulario.css">
+    </head>
+    <body>
+        <form action="./resultados.html" method="GET">
+            <div>
+                <label for="nombreusuario"> Nombre de usuario</label>
+                <input type ="text" name ="nombreusuario" id="nombreusuario" required/>
+            </div>
+            <br>
+            <div>
+                <label for="password">Contraseña</label> 
+                <input type="password" name="password" id="password" required/>
+            </div>
+            <br>
+            <div>
+                <label for="email">Cual es tu email</label> 
+                <input type="email" name="email" id="email" required/>
+            </div>
+            <br>
+            <div>
+                <label for="edad">Cual es tu edad</label> 
+                <input type="number" name="edad" id="edad" min="0" max="200" step="1" required/>
+            </div>
+            <br>
+            <div>
+                <label for="nacimiento">Cual es tu fecha de nacimiento</label> 
+                <input type="date" name="nacimiento" id="nacimiento" required/>
+            </div>
+            <br>
+            <div>
+                <label for="comentarios">Comentarios</label>
+                <textarea name ="comentarios" id="comentarios"></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="reset">Reset</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    
+    </body>
+</html>
+
+<!-- form sirve para agrupar una serie de elementos inputs, checkbox, etc y sirve para que 
+el usuario llene sus formularios -->
+
+<!-- 
+action hace referencia al documento o URL donde nosotros queremos enviar -->
+
+
+<!-- <input type="number" name="edad" id="edad" min="0" max="200" step="1" required/> el minimo de caracteres para comenzar es de 0 y
+maximo 200, el step sirve para ir de uno en uno, cualquier numero ejemplo 5 al momento de dar click en la tecla de subir pasa a 10 -->

@@ -1,0 +1,21 @@
+//componentes
+/* @import "sass/componentes"; */
+@use "sass/componentes" as comp;
+
+
+//mixin
+/* @import"sass/mixins"; */
+@use "sass/mixins" ;
+
+//estilos
+/* @import "sass/estilos"; */
+@use "sass/estilos";
+
+/* otros */
+@use "sass/builtin"
+
+/* con el mixin sirve para reutilizar codigo  @include formato-texto, con formato-texto($bg-color) es como una funcion que podemos cambiar de color */
+
+
+
+
